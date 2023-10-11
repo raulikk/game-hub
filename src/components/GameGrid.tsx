@@ -25,10 +25,11 @@ const GameGrid = ({gameQuery}: Props) => {
   <SimpleGrid columns={{
     base: 1, 
     sm: 2, 
+    md: 2,
     lg:3, 
     xl:3
   }} 
-  spacing={3} 
+  spacing={6} 
   padding="10px" 
   > 
     {isLoading && skeletons.map( (skeleton)=>
